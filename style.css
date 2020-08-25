@@ -1,0 +1,33 @@
+@import url('//https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+    padding: 0;
+    margin: 0px;
+    font-family:'Noto Sans', sans-serif;
+}
+
+.top-nav {
+    background-color: #18222b;
+    overflow: hidden;
+}
+
+.top-nav a {
+    background-color: aliceblue;
+    display: block;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active {
+    background-color: #009dce
+}
+
+.top-nav a:hover :not(.active) {
+    background-color: #34495e
+}
+
+.right {
+    float: right !important;
+}
